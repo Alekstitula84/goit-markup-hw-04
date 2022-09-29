@@ -283,8 +283,30 @@ ol {
   background: var(--team-background-color);
 }
 
+.team-soc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .team-container {
   display: flex;
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.team-soc-icon {
+  fill: currentColor;
 }
 
 .team-main-title {
