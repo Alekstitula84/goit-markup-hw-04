@@ -140,6 +140,9 @@ ol {
 }
 
 /* .auth-nav */
+.auth-icon {
+  margin-right: 10px;
+}
 
 .auth-nav {
   display: flex;
@@ -151,7 +154,8 @@ ol {
 }
 
 .auth-link {
-  display: block;
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -176,6 +180,14 @@ ol {
   padding-top: 200px;
   padding-bottom: 200px;
   background: var(--hero-bacground-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/img-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -227,6 +239,9 @@ ol {
 .studio-list {
   display: flex;
   gap: 30px;
+}
+.studio-icon {
+  margin-bottom: 30px;
 }
 
 .studio-text {
@@ -302,6 +317,10 @@ ol {
 .team-list {
   display: flex;
   gap: 30px;
+}
+
+.team-item {
+  /* box-shadow: #000000; */
 }
 
 .team-pos {
