@@ -298,7 +298,7 @@ ol {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: tomato;
+  /* background-color: tomato; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -352,8 +352,48 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--auth-link-color);
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
+
+/* regular customers */
+/* .regular-customers {
+}
+.section {
+}*/
+
+/* .customers {
+ } */
+
+.customers-title {
+  display: block;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-nav-link-color);
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* .customers-item {
+} */
+
+.customers-link {
+  /* border-style: initial;
+  border-radius: 1px;
+  border: 1px solid rgba(175, 177, 184, 1); */
+  display: flex;
+}
+
+/* .customers-icon {
+} */
 
 /* footer */
 .footer {
