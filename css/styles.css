@@ -284,13 +284,14 @@ ol {
   width: calc((100% - 60px) / 3);
 }
 
-/* Команда */
+/* -------------Команда------------ */
 .team {
   background: var(--team-background-color);
 }
 
 .team-container {
   display: flex;
+  max-height: 428px;
 }
 
 .team-main-title {
@@ -346,6 +347,7 @@ ol {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .team-soc-link {
@@ -356,7 +358,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+
   color: rgba(175, 177, 184, 1);
 }
 
@@ -417,7 +419,7 @@ ol {
   border: 1px solid var(--text-nav-link-hover-color);
 }
 
-/* footer */
+/*---------- footer----------- */
 
 .footer {
   padding-top: 60px;
@@ -428,6 +430,7 @@ ol {
 .footer-container {
   display: flex;
   gap: 70px;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -440,7 +443,6 @@ ol {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--text-nav-link-hover-color);
-
   margin-bottom: 20px;
 }
 
@@ -496,7 +498,6 @@ ol {
   text-transform: uppercase;
   color: var(--hero-title-color);
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 
 .footer-soc-list {
@@ -565,8 +566,7 @@ ol {
 .img-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 30px;
-  column-gap: 30px;
+  gap: 30px;
 }
 
 .filters-img {
@@ -586,7 +586,6 @@ ol {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-nav-link-color);
-  /* max-width: 322px; */
   margin-bottom: 4px;
 }
 
@@ -600,10 +599,15 @@ ol {
 }
 
 .img-item {
-  flex-basis: calc(100% / 3 -60px);
+  flex-basis: calc(100% / 3 - 60px);
 }
 
-.img-item:hover {
+.img-link {
+  display: block;
+}
+
+.img-link:hover,
+.img-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
